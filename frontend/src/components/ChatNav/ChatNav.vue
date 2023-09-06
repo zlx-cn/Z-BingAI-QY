@@ -360,14 +360,14 @@ const saveAdvancedSetting = () => {
         <NFormItem path="" label="最新版本">
           <NTag type="info" size="small" round>{{ lastVersion }}</NTag>
         </NFormItem>
-        <NFormItem path="token" label="开源地址">
-          <NButton text tag="a" href="https://github.com/Harry-zklcdc/go-proxy-bingai" target="_blank" type="success">Harry-zklcdc/go-proxy-bingai</NButton>
+        <NFormItem path="token" label="开发者">
+          <NButton text tag="a" href="https://zlx.zeabur.app/" target="_blank" type="success">查看主页</NButton>
         </NFormItem>
-        <NFormItem path="token" label="原作者">
-          <NButton text tag="a" href="https://github.com/adams549659584" target="_blank" type="success">adams549659584</NButton>
+        <NFormItem path="token" label="AI导航">
+          <NButton text tag="a" href="https://z-aidh.zlx-cn2.repl.co/" target="_blank" type="success">传送至导航页</NButton>
         </NFormItem>
-        <NFormItem path="token" label="原开源地址">
-          <NButton text tag="a" href="https://github.com/adams549659584/go-proxy-bingai" target="_blank" type="success">adams549659584/go-proxy-bingai</NButton>
+        <NFormItem path="token" label="更多">
+          <NButton text tag="a" href="#" target="_blank" type="success">-待更新-</NButton>
         </NFormItem>
     </NForm>
     <template #action>
