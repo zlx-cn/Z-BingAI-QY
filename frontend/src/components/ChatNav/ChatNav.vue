@@ -349,5 +349,30 @@ const saveAdvancedSetting = () => {
         <NButton ghost size="large" type="error" @click="resetCache">确定</NButton>
       </template>
     </NModal>
-    
+    <NModal v-model:show="isShowSetAboutModal" preset="dialog" :show-icon="false">
+      <template #header>
+        <div class="text-3xl py-2">关于</div>
+      </template>
+      <NForm ref="formRef" label-placement="left" label-width="auto" size="small" style="margin-top: 16px;">
+        <NFormItem path="" label="版本号">
+          <NTag type="info" size="small" round>{{ 'v' + localVersion }}</NTag>
+        </NFormItem>
+        <NFormItem path="" label="最新版本">
+          <NTag type="info" size="small" round>{{ lastVersion }}</NTag>
+        </NFormItem>
+        <NFormItem path="token" label="开发者">
+          <NButton text tag="a" href="https://zlx.zeabur.app/" target="_blank" type="success">查看主页</NButton>
+        </NFormItem>
+        <NFormItem path="token" label="AI导航">
+          <NButton text tag="a" href="https://z-aidh.zlx-cn2.repl.co/" target="_blank" type="success">传送至导航页</NButton>
+        </NFormItem>
+        <NFormItem path="token" label="更多">
+          <NButton text tag="a" href="#" target="_blank" type="success">-待更新-</NButton>
+        </NFormItem>
+    </NForm>
+    <template #action>
+      <NButton ghost size="large" @click="isShowSetAboutModal = false" type="info">确定</NButton>
+    </template>
+  </NModal>
+  <CreateImage v-model:show="isShowCreateImageModal" />
 </NConfigProvider></template>
