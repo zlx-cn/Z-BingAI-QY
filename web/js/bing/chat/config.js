@@ -684,8 +684,8 @@ _w['_sydConvTranslation'] = {
   typingIndicatorStopRespondingAriaLabel: '停止响应',
   loading: '正在加载',
   canceling: '正在取消',
-  welcomeLearnSegment0: '必应由 AI 提供支持，因此可能出现意外和错误。请确保核对事实，并',
-  welcomeLearnSegment1: '让我们一起学习。必应由 AI 提供支持，因此可能出现意外和错误。请确保核对事实，并 ',
+  welcomeLearnSegment0: '必应由 Z网络 X AI 提供支持，因此可能出现意外和错误。请确保核对事实，并',
+  welcomeLearnSegment1: '让我们一起学习。必应由 Z网络 X AI 提供支持，因此可能出现意外和错误。请确保核对事实，并 ',
   welcomeLearnSegment2: '共享反馈 ',
   welcomeLearnSegment3: '以便我们可以学习和改进!',
   welcomeLearnMessage: '让我们一起学习。必应由可以理解并生成文本和图像的 AI 提供支持，因此可能出现意外和错误。请确保核对事实，并 {0} 以便我们可以学习和改进！',
@@ -1117,7 +1117,7 @@ if (UserStoreGet('enterpriseEnable')) {
   _w['_sydConvConfig']['isBingChatForEnterprise'] = true
   _w['_sydConvConfig']['enableMessagePrivacy'] = true
   _w['_sydConvConfig']['PLoadIID'] = 'SERP.5833'
-  _w['_sydConvTranslation']['warmWelcomeTitle'] = 'Bing Chat Enterprise'
-  _w['_sydConvTranslation']['welcomeSubtitleText'] = '由 AI 支持的适用于 Web 的 Copilot'
+  _w['_sydConvTranslation']['warmWelcomeTitle'] = '© 2023 ZLX-WEB'
+  _w['_sydConvTranslation']['welcomeSubtitleText'] = '由 Z网络 X AI 支持的适用于 Web 的 Copilot'
   _w['_sydConvTranslation']['inputRaiLabel'] = '你的个人和公司数据在此聊天中受到保护'
 }
