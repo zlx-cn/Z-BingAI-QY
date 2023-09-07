@@ -33,7 +33,7 @@ export const useChatStore = defineStore(
       },
       {
         baseUrl: location.origin,
-        label: '本站',
+        label: '本站(Z网络 X AI提供支持)',
       },
       {
         baseUrl: '',
