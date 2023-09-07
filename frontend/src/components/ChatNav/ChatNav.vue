@@ -91,7 +91,7 @@ const navConfigs = [
     label: '一键重置',
   },
   {
-    key: navType.about,
+    key: navType.bout,
     label: '更多'
   },
 ];
